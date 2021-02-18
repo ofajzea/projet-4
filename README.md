@@ -88,12 +88,32 @@ https://sandbox.intelligence-airbusds.com/web/
 ### Sééances
 - 10 seances 4h
 - CR à faire àà la fin de chaque sééance (dans le changelog de chaque projet) 
-- préésentation mis parcours (17/05)
+- préésentation mis parcours (17/05): pitch 5 min 3 slides. TODO ecrire consignes 
 - soutenance (07/06) 
  - rapport
  - notebook demo 
  - code
  - presentation
+
+ rendu final pour cloturer le projet (1-2 sett dopo soutenance)
+1. Descriptif
+   - descriptif de votre projet en anglais (quelque paragraphe qui explique le contexte
+   et objectifs du projet)
+   - 1-2 images représentatives du projet
+   - liste de taches à faire/reprendre pour l'année prochaine
+   - liste membres de l'équipe
+2. Documents
+   - présentation mi parcours
+   - présentation finale
+   - rapport final
+   - autres docs rédigés dans le projet
+3. Code
+   - dossier avec code développé (version finale, commentée et "nettoyée")
+   - readme (fichier texte qui explique ce qu'il y a dans le dossier et
+     comment utiliser le code)
+   - demo (script/s qui montrent comment utiliser le code dans un cas de
+     test)
+
 
  ### Consignes
  - groupes de 3 personnes
@@ -105,4 +125,5 @@ https://sandbox.intelligence-airbusds.com/web/
 ## TODO
 - creer dossier pour chaque projet + readme + file changelog + données + code année derniere
 - creer dossier introduction/slides
-- templates 
+- templates (rapport, presentation, presentation mi parcours)
+- how to use git, jupyter
