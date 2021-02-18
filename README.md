@@ -9,6 +9,7 @@ Dans ce projet, les étudiants mettront en pratique les connaissances acquises l
 
 Language de dééveloppeemt python (jupyter)
 
+
 ## Projects
 
 ### Pollution
@@ -121,9 +122,11 @@ https://sandbox.intelligence-airbusds.com/web/
  distance que votre présence n’est pas obligatoire pendant TOUTE la séance ! Nous ferons donc demain matin, comme nous avons fait les autres années, c’est à dire, tirage au sort pour l’ordre de passage ! Et comme à chaque séance, je noterai les absences et les retards…
 - Encadrement est assuré par X et Y. Certaines séances sont encadrées
   par les deux
+- consignes redaction (presentations, rapports, code)
  
 ## TODO
 - creer dossier pour chaque projet + readme + file changelog + données + code année derniere
 - creer dossier introduction/slides
 - templates (rapport, presentation, presentation mi parcours)
 - how to use git, jupyter
+- translate in english
