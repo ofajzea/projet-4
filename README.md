@@ -2,9 +2,13 @@
 
 Remote Sensing Projects at ENSE3, Grenoble-INP.
 
+Descriptif projet. 
+
 ## Projects
 
 ### Pollution
+1. Description
+2. Objectives
 
 ### Snow monitoring with medium resolution time series
 
@@ -69,3 +73,8 @@ This is NOT the final product which will be commercialized. The datasets are cur
 How would you use real time video over a city?
 
 https://sandbox.intelligence-airbusds.com/web/
+
+## Organization
+
+
+## 
