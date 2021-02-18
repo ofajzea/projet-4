@@ -2,7 +2,10 @@
 
 Remote Sensing Projects at ENSE3, Grenoble-INP.
 
-Descriptif projet. 
+Descriptif projet : 
+
+La télédétection est l’ensemble des techniques qui permettent, par l’acquisition d’images, d’obtenir de l’information sur la surface de la Terre (y compris l’atmosphère et les océans), sans contact direct avec celle-ci. Grace aux spécificités des multiples capteurs d’imagerie (capteur à très haute résolution spatiale ou très haute résolution spectrale, radar, Lidar, etc.) et la multiplicité́ de leurs supports (satellites notamment), la télédétection est aujourd’hui abondamment utilisée pour des problématiques d’observation et de surveillance de l’environnement. 
+Dans ce projet, les étudiants mettront en pratique les connaissances acquises lors du cours de traitement d’images sur 6 problématiques différentes liées à l’observation de l’environnement.
 
 ## Projects
 
