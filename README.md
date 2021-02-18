@@ -7,6 +7,8 @@ Descriptif projet :
 La télédétection est l’ensemble des techniques qui permettent, par l’acquisition d’images, d’obtenir de l’information sur la surface de la Terre (y compris l’atmosphère et les océans), sans contact direct avec celle-ci. Grace aux spécificités des multiples capteurs d’imagerie (capteur à très haute résolution spatiale ou très haute résolution spectrale, radar, Lidar, etc.) et la multiplicité́ de leurs supports (satellites notamment), la télédétection est aujourd’hui abondamment utilisée pour des problématiques d’observation et de surveillance de l’environnement. 
 Dans ce projet, les étudiants mettront en pratique les connaissances acquises lors du cours de traitement d’images sur 6 problématiques différentes liées à l’observation de l’environnement.
 
+Language de dééveloppeemt python (jupyter)
+
 ## Projects
 
 ### Pollution
@@ -79,5 +81,28 @@ https://sandbox.intelligence-airbusds.com/web/
 
 ## Organization
 
+### Evaluation
+- Note finale : 50% (controle continue, qualité du travail, methodologie...) + 25% rapport éécrit + 25% préésentation finale
+- Possible modulation individuelle
 
-## 
+### Sééances
+- 10 seances 4h
+- CR à faire àà la fin de chaque sééance (dans le changelog de chaque projet) 
+- préésentation mis parcours (17/05)
+- soutenance (07/06) 
+ - rapport
+ - notebook demo 
+ - code
+ - presentation
+
+ ### Consignes
+ - groupes de 3 personnes
+ - Présence à toutes les séances obligatoire
+ distance que votre présence n’est pas obligatoire pendant TOUTE la séance ! Nous ferons donc demain matin, comme nous avons fait les autres années, c’est à dire, tirage au sort pour l’ordre de passage ! Et comme à chaque séance, je noterai les absences et les retards…
+- Encadrement est assuré par X et Y. Certaines séances sont encadrées
+  par les deux
+ 
+## TODO
+- creer dossier pour chaque projet + readme + file changelog + données + code année derniere
+- creer dossier introduction/slides
+- templates 
