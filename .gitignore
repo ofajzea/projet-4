@@ -1,2 +1,18 @@
-# local file
-rs-projects.org
+.cache
+.ipynb_checkpoints/
+__pycache__/
+
+*.pyc
+*~
+*#
+.#*
+*.pyd
+*.bak
+*.old
+.DS_Store
+.pytest_cache
+.mypy_cache/
+.idea/
+*.log
+.asv
+.vscode/

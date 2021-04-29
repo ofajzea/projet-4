@@ -2,13 +2,7 @@
 
 Remote Sensing Projects at ENSE3, Grenoble-INP.
 
-Descriptif projet : 
-
-La télédétection est l’ensemble des techniques qui permettent, par l’acquisition d’images, d’obtenir de l’information sur la surface de la Terre (y compris l’atmosphère et les océans), sans contact direct avec celle-ci. Grace aux spécificités des multiples capteurs d’imagerie (capteur à très haute résolution spatiale ou très haute résolution spectrale, radar, Lidar, etc.) et la multiplicité́ de leurs supports (satellites notamment), la télédétection est aujourd’hui abondamment utilisée pour des problématiques d’observation et de surveillance de l’environnement. 
-Dans ce projet, les étudiants mettront en pratique les connaissances acquises lors du cours de traitement d’images sur 6 problématiques différentes liées à l’observation de l’environnement.
-
-Language de dééveloppeemt python (jupyter)
-
+Descriptif projet. 
 
 ## Projects
 
@@ -82,51 +76,5 @@ https://sandbox.intelligence-airbusds.com/web/
 
 ## Organization
 
-### Evaluation
-- Note finale : 50% (controle continue, qualité du travail, methodologie...) + 25% rapport éécrit + 25% préésentation finale
-- Possible modulation individuelle
 
-### Sééances
-- 10 seances 4h
-- CR à faire àà la fin de chaque sééance (dans le changelog de chaque projet) 
-- préésentation mis parcours (17/05): pitch 5 min 3 slides. TODO ecrire consignes 
-- soutenance (07/06) 
- - rapport
- - notebook demo 
- - code
- - presentation
-
- rendu final pour cloturer le projet (1-2 sett dopo soutenance)
-1. Descriptif
-   - descriptif de votre projet en anglais (quelque paragraphe qui explique le contexte
-   et objectifs du projet)
-   - 1-2 images représentatives du projet
-   - liste de taches à faire/reprendre pour l'année prochaine
-   - liste membres de l'équipe
-2. Documents
-   - présentation mi parcours
-   - présentation finale
-   - rapport final
-   - autres docs rédigés dans le projet
-3. Code
-   - dossier avec code développé (version finale, commentée et "nettoyée")
-   - readme (fichier texte qui explique ce qu'il y a dans le dossier et
-     comment utiliser le code)
-   - demo (script/s qui montrent comment utiliser le code dans un cas de
-     test)
-
-
- ### Consignes
- - groupes de 3 personnes
- - Présence à toutes les séances obligatoire
- distance que votre présence n’est pas obligatoire pendant TOUTE la séance ! Nous ferons donc demain matin, comme nous avons fait les autres années, c’est à dire, tirage au sort pour l’ordre de passage ! Et comme à chaque séance, je noterai les absences et les retards…
-- Encadrement est assuré par X et Y. Certaines séances sont encadrées
-  par les deux
-- consignes redaction (presentations, rapports, code)
- 
-## TODO
-- creer dossier pour chaque projet + readme + file changelog + données + code année derniere
-- creer dossier introduction/slides
-- templates (rapport, presentation, presentation mi parcours)
-- how to use git, jupyter
-- translate in english
+## 
