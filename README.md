@@ -111,6 +111,6 @@ detection.](../docs/figs/ships_xs.jpg)
 
 ## Supervisors
     - Mauro Dalla Mura (2016-2021)
-    - Aneline Dolet (2020-2021)
-    - Théo Masson (2017-2019)
+    - Aneline Dolet (2019-2021)
+    - Théo Masson (2017-2018)
     - Guillaume Tochon (2016)
