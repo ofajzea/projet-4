@@ -7,13 +7,13 @@ Announcements will be posted here.
 
   * **Welcome to the remote sensing project**
 
-  Contacts
-
+  * Contacts
     * Mauro Dalla Mura <mauro.dalla-mura@gipsa-lab.grenoble-inp.fr>
-    * Aneline Dolet <aneline.dolet@gipsa-lab.grenoble-inp.fr>
+    * Giuseppe Costantino <giuseppe.costantino@univ-grenoble-alpes.fr>
+    * Daniele Picone <daniele.picone@grenoble-inp.fr>
 
   * Important dates:
-    * 17/05 Intermediate presentation - 5 min pitch (3 slides)
+    * 05/05 Intermediate presentation - 5 min pitch (3 slides)
     * 07/06 Final presentation (15 min presentation + 5-10 min Q&A)
 
 
@@ -111,6 +111,8 @@ detection.](../docs/figs/ships_xs.jpg)
 
 ## Supervisors
   - Mauro Dalla Mura (2016-2021)
+  - Giuseppe Costantino (2021-2022)
+  - Daniele Picone (2021-2022)
   - Aneline Dolet (2019-2021)
   - Théo Masson (2017-2018)
   - Guillaume Tochon (2016)
