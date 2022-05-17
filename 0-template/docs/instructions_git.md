@@ -26,7 +26,7 @@
 
 - Login to your Gricad account
 - Go to `https://gricad-gitlab.univ-grenoble-alpes.fr/imspoc_gipsa/remote-sensing-projects`
-- Fork your project on your private account (click on the button on top right)
+- Fork your project on your private account (click on the button `Fork` on top right)
 
 ## Initialize the git repository
 
@@ -64,7 +64,7 @@
 
 ## At the end of your project
 - In your terminal:
-  - `git pull upstream master` to get the most up to date version of the central repository
+  - `git pull upstream master` to get the most up-to-date version of the central repository
 - On the Gricad page of your forked repository:
   - Click on `Merge reauests` on the menu on the left
   - For the source:
@@ -72,6 +72,7 @@
   - For the destination:
     - Select `https://gricad-gitlab.univ-grenoble-alpes.fr/imspoc_gipsa/remote-sensing-projects` 
     - Select the branch `master`
-  - Click on `Send a merge request`:
+  - Click on `Send a merge request`
+  - Once approved, your code will be uploaded on the central repository
 
 

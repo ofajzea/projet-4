@@ -57,7 +57,7 @@ We will use **discord** for interactions during the remote sessions.
   - <https://jakevdp.github.io/PythonDataScienceHandbook/index.html>
     - Ch 1, 2, 4 (Ipython, NumPy, Matplotlib)
     - [optional] Ch. 3, 5 (Pandas, Machine Learning)
-    - [jupyter.pdf](./helpers/python/jupyter.pdf)
+    - [jupyter.pdf](docs/python/jupyter.pdf)
   - [optional] Tutorial on Jupyter showcasing jupyter features and installation  <https://www.youtube.com/watch?v=HW29067qVWk>
   - [optional] Video on downsides of using jupyter notebooks
   <https://www.youtube.com/watch?v=7jiPeIFXb6U>
@@ -99,7 +99,7 @@ We will use **discord** for interactions during the remote sessions.
 ### [8 - Ship detection challenge](8-ship_detection)
 
 ![Example of image acquired by SPOT for ship
-detection.](../docs/figs/ships_xs.jpg)
+detection.](./docs/figs/ships_xs.jpg)
 
 ### [9 - Remote Sensing video analysis](9-rs_video)
 
