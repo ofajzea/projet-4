@@ -1,6 +1,0 @@
-rasterio
-gdal
-numpy
-geopandas
-opencv-python
-matplotlib

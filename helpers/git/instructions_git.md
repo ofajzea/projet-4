@@ -3,7 +3,7 @@
 *git* is a platform form code control, which allows to:
 - Track your code modifications
 - Share your code online
-- Syncronize your work across different people
+- Synchronize your work across different people
 
 
 ## Getting started
