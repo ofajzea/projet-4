@@ -19,5 +19,6 @@ structure across different groups and across different academic years.
     │   └───figures    <- Raw figures that you generated for your reports  
     └───src            <- Contains the source code in Python for the specific  
                           project. Ideally to be expanded upon each year.
+    requirements.txt   <- Add here a list of all the libraries you included
 ------------
  
