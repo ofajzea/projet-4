@@ -1,3 +1,6 @@
+# Importing standard libraries
+from pathlib import Path
+
 # Importing from open source public libraries
 import imageio as io
 import rasterio
@@ -12,21 +15,22 @@ from src.utilities.utils_rasterio import rio_img_info
 
 
 def main():
+    project_path = Path(__file__).resolve().parents[1]
     # Reading a standard image. Here we use the imageio package.
     # imageio can also read images that are not coded in 8 bits.
     # Other options exist, for example: open-cv
-    img = io.imread('./../data/cam2_UTC_19-01-02_10-59-59-84.jpg')
+    img = io.imread(f"{project_path}/data/cam2_UTC_19-01-02_10-59-59-84.jpg")
     plt.imshow(img)
 
     # Reading a remote sensing image.
     # imageio can also read images that are not coded in 8 bits.
 
-    gdal_img_info("./../data/example_geotiff_1band.tif")
-    rio_img_info("./../data/example_geotiff_1band.tif")
+    gdal_img_info(f"{project_path}/data/example_geotiff_1band.tif")
+    rio_img_info(f"{project_path}/data/example_geotiff_1band.tif")
 
     # Example of reading an image not coded on 8 bits (here float32)
 
-    filename1 = "./../data/example_geotiff_1band.tif"
+    filename1 = f"{project_path}/data/example_geotiff_1band.tif"
     img1 = io.imread(filename1)
 
     print(img1.shape)
@@ -37,7 +41,7 @@ def main():
     plt.colorbar()
 
     # Example of reading a multispectral image with 7 bands
-    filename2 = "./../data/example_geotiff_ms.tif"
+    filename2 = f"{project_path}/data/example_geotiff_ms.tif"
 
     img2 = io.imread(filename2)
 
@@ -49,7 +53,7 @@ def main():
     _, ax = plt.subplots()
     ax.imshow(img2[:, :, (2, 1, 0)])
 
-    # Clipping input data to the valid range
+    # Clipping loading data to the valid range
     # for imshow with RGB data ([0..1] for floats or[0..255] for integers).
 
     # Do the same using rasterio (note that the pixel coordinates are
@@ -73,7 +77,7 @@ def main():
     ax.imshow(arr)
 
     # Reading a Matlab workspace
-    data = loadmat('./../data/example_matlab_workspace.mat')
+    data = loadmat(f"{project_path}/data/example_matlab_workspace.mat")
     print(data)
 
     # Have a look at the content of a dictionary

@@ -41,6 +41,61 @@ Use this space to give a very high level description of your project including:
     the `requirements.txt` file of your project
 
 
+## Deliverables
+
+In this project you are required to provide the following material.
+Note: All the materials should include the names of all the members of the group.
+
+- For the mid-course:
+  - A pdf for the mid-course presentation slides, which has to include:
+    - A *problem statement*, that is:
+          - The available resources to process;
+          - The prospected geographical area and the timeslot under study 
+          - The desired products;
+          - The methodology to achieve said products (at least in general terms);
+          - The ground truth and the measures to compare to it, if applicable.
+    - A description of the characteristics of the available sensors, specifically:
+          - The *ground sample distance* of each band;
+          - The bandwidth coverage of each band;
+          - Information on the orbit (revisit time, swath, etc.);
+          - Possible applications linked to the sensors.
+    - A tutorial on how to download, geolocalize and transform the data into an array:
+          - The portal used to download the data;
+          - The image and metadata format;
+          - Description of the scripts used.
+
+- At the end of the course:
+  - A notebook describing how to access the code in your project, which has to include:
+    - How download the data from an online platform;
+    - A data visualization, highlighting its peculiarities;
+    - A script to showcase all the tested methods;
+    - Tests, experiments and results comparisons 
+    - *NOTE:* The actual code in the notebook has to be minimal, as it has to
+      just call the functions contained in your `src` folder
+  - A pdf for the final presentation slides, extending the mid-course one with:
+    - A description of the methods
+    - A visual comparison of the results
+  - A final report, which details all the work done during the project
+      - Sources used in your work (literature, online repositories)
+      - Problem statement, with detailed formulation of the input and outputs
+      - Mathematical description of the methods
+      - Description of the validation framework
+      - Discussion on the results:
+        - Objective, through quality indices (presented through tables)
+        - Qualitative, by visually comparing the results
+
+## Handing out your deliverables
+The deliverables have to be added to your project main folder according to the
+project organization described in the following section.
+Henceforth, in your project folder:
+- `notebooks\YYYY_YYYY`: has to include the Jupyter notebook of your work
+- `reports\YYYY_YYYY`: has to contain the presentations and the final report
+  -  `YYYY_YYYY` is your academic year (e.g. `2021_2022`)
+
+The deliverables are to be provided through a merge request to the central repository.
+
+The instructions for interfacing through `git` are located in `docs\instructions_git.md`.
+
 ## Project Organization
 
 The following folder structure serves as a guideline to standardize the project
