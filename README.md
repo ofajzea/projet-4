@@ -76,21 +76,21 @@ Note: Please include the names of all the members of the group.
 ### Mid course deliverable
 Each group has to provide a pdf for the mid-course presentation slides, which 
 have to include:
-  - A *problem statement*, that is:
-        - The available resources to process;
-        - The prospected geographical area and the timeslot under study 
-        - The desired products;
-        - The methodology to achieve said products (at least in general terms);
-        - The ground truth and the measures to compare to it, if applicable.
-  - A description of the characteristics of the available sensors, specifically:
-        - The *ground sample distance* of each band;
-        - The bandwidth coverage of each band;
-        - Information on the orbit (revisit time, swath, etc.);
-        - Possible applications linked to the sensors.
-  - A tutorial on how to download, geolocalize and transform the data into an array:
-        - The portal used to download the data;
-        - The image and metadata format;
-        - Description of the scripts used.
+- A *problem statement*, that is:
+  - The available resources to process;
+  - The prospected geographical area and the timeslot under study 
+  - The desired products;
+  - The methodology to achieve said products (at least in general terms);
+  - The ground truth and the measures to compare to it, if applicable.
+- A description of the characteristics of the available sensors, specifically:
+  - The *ground sample distance* of each band;
+  - The bandwidth coverage of each band;
+  - Information on the orbit (revisit time, swath, etc.);
+  - Possible applications linked to the sensors.
+- A tutorial on how to download, geolocalize and transform the data into an array:
+  - The portal used to download the data;
+  - The image and metadata format;
+  - Description of the scripts used.
 
 ### End course deliverable
 At the final session of the course, each group has to provide:
