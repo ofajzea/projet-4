@@ -1,16 +1,33 @@
 # Accessing the Jupyter scripting environment
 - You can either access your Jupyter notebook locally or remotely
-- Remotely:
+- Remotely (if you have a Gricad account):
   - Connect yourself to Jupyterhub at `https://jupyterhub.u-ga.fr/` with your Agalan information
   - For all the extra material (typically images or metadata), you will need to upload files through the interface
   - The material is automatically saved online on your account, but the space is limited
+  - The Jupyter Gricad internal servers are often down, so try to save a local copy too if possible 
 - Locally:
   - Install python on your machine
-  - Type `pip install jupyter` in your install folder
+  - Type `pip install jupyter` in your installation folder
   - Type `jupyter notebook` and browse to your local project folder
   - The notebook is not compatible with older versions of Internet Explorer (before Edge)
   - For this setup, your material is all automatically saved locally on your machine
   - Remember to save your data at the end of the session
+- Workaround for Internet Explorer: 
+  - On some computers Internet Explorer runs by default when jupyter notebooks are launched
+  - Copy your URL from your IE browser to another one of your choice (e.g., Firefox, Chrome, Edge)
+    - The URL is typically `http://localhost:8888/` 
+  - It will ask you for an authorization token
+  - Open a terminal from your taskbar (e.g. through a `conda terminal` on windows)
+  - Type `jupyter server list` within it
+  - Copy the token that you see as `token_here` below :
+    - ```http://localhost:8888/?token=token_here@...```
+  - Paste it to your authorization field
+- It is also suggested to install `Jupyter Lab`:
+  - In your terminal, type:
+    - `pip install jupyterlab` to install the package
+    - `jupyter lab` to launch your installed notebook
+    - Locally your URL will look like `http://localhost:8888/lab/`
+    - Jupyter lab allows for more fine control over your notebooks
 
 # The first time to create your working environment
 - Open a new notebook Jupyter: `New (up right) -> Python 3`
@@ -55,4 +72,4 @@ In JupyterHub (at the beginning of your folder tree), open a Terminal (`New` -> 
 - You will now make a "version" with all these documents that you want to put under git: `git commit -m "Put a comment explaining what you put in git"`
 - You can now upload it to your branch in the git: `git push`
 
-### Be carefull to use `git pull` sometime to also have your colleagues works locally and be up-to-date with your project (see the tutorials about using git we gave you at the beginning of the project)
+### Be careful to use `git pull` sometime to also have your colleagues works locally and be up-to-date with your project (see the tutorials about using git we gave you at the beginning of the project)

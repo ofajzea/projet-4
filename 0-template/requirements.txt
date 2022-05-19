@@ -1,8 +1,10 @@
 scipy
 imageio
+gdal
 rasterio
 numpy
 geopandas
-opencv
+opencv-python
 matplotlib
 jupyter
+jupyterlab
