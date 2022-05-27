@@ -6,5 +6,7 @@ numpy
 geopandas
 opencv-python
 matplotlib
+tqdm
 jupyter
 jupyterlab
+landsatxplore

@@ -71,7 +71,9 @@ penalization on your final score (0.25 deducted points for each missed hour).
 ## Deliverables
 
 The project requires to hand the following material.
-Note: Please include the names of all the members of the group.
+Note:
+- Please include the names of all the members of the group.
+- All the material (code included) has to be provided in English.
 
 ### Mid course deliverable
 Each group has to provide a pdf for the mid-course presentation slides, which 
