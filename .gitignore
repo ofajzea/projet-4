@@ -16,3 +16,5 @@ __pycache__/
 *.log
 .asv
 .vscode/
+
+projects/2021_2022/data/spot_pansharpening/*.TIF

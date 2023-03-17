@@ -23,14 +23,14 @@ Remote sensing refers to the analysis of images and signals acquired
 over a physical phenomenon in order to obtain information on the surface
 of the Earth (including the atmosphere and the oceans), without direct
 contact with it.
-Thanks to the specificities of the multiple imaging sensors (sensor with very 
-high spatial resolution or very high spectral resolution, radar, Lidar, etc.) 
-and the multiplicity of their supports (satellites in particular), remote 
-sensing is now widely used for problems of observation and monitoring of the 
+Thanks to the specificities of the multiple imaging sensors (sensor with very
+high spatial resolution or very high spectral resolution, radar, Lidar, etc.)
+and the multiplicity of their supports (satellites in particular), remote
+sensing is now widely used for problems of observation and monitoring of the
 environment.
 
 In this project, students will put into practice the knowledge acquired
-in image and signal processing courses on 6 different remote sensing 
+in image and signal processing courses on 6 different remote sensing
 applications related to the observation of the environment.
 
 This project will be developed in python.
@@ -40,7 +40,7 @@ The main objectives of this project are:
 
 * Get familiar with satellite remote sensing and see more in depth an
     applications related to Earth observation
-* Apply concepts of image/signal processing and data science 
+* Apply concepts of image/signal processing and data science
     (machine/deep learning) for the analysis of remote sensing images
 
 Additionally, the student will develop the following set of acquired skills:
@@ -57,14 +57,14 @@ Additionally, the student will develop the following set of acquired skills:
 ## Organization
 - This project is organized into 10 session of 4 hours each.
 - The students will divide in groups of 3 to 4 students and approach one of the
-problems described in the `Projects` section, or some new proposal, which has 
+problems described in the `Projects` section, or some new proposal, which has
 to be validated by one of the supervisors.
-- Each group is required to present a series of documents, as described in the 
+- Each group is required to present a series of documents, as described in the
 `Deliverables` section.
 - The deliverables have to be presented through a merge request on the central
-git repository (that is, the repository where this file is located); more 
+git repository (that is, the repository where this file is located); more
 instructions are provided in the `Deliverables` section
-- The presence to each session is required and each absence will cause a 
+- The presence to each session is required and each absence will cause a
 penalization on your final score (0.25 deducted points for each missed hour).
 
 
@@ -76,11 +76,11 @@ Note:
 - All the material (code included) has to be provided in English.
 
 ### Mid course deliverable
-Each group has to provide a pdf for the mid-course presentation slides, which 
+Each group has to provide a pdf for the mid-course presentation slides, which
 have to include:
 - A *problem statement*, that is:
   - The available resources to process;
-  - The prospected geographical area and the timeslot under study 
+  - The prospected geographical area and the timeslot under study
   - The desired products;
   - The methodology to achieve said products (at least in general terms);
   - The ground truth and the measures to compare to it, if applicable.
@@ -100,13 +100,13 @@ At the final session of the course, each group has to provide:
   - How download the data from an online platform;
   - A data visualization, highlighting its peculiarities;
   - A script to showcase all the tested methods;
-  - Tests, experiments and results comparisons 
+  - Tests, experiments and results comparisons
   - *NOTE:* The actual code in the notebook has to be minimal, as it has to
     just call the functions contained in your `src` folder
 - A pdf for the final presentation slides, extending the mid-course one with:
   - A description of the methods
   - A visual comparison of the results
-- A final report written in latex, which details all the work done during the project:
+- A final report written in LaTex, which details all the work done during the project:
     - Sources used in your work (literature, online repositories)
     - Problem statement, with detailed formulation of the input and outputs
     - Mathematical description of the methods
@@ -114,6 +114,7 @@ At the final session of the course, each group has to provide:
     - Discussion on the results:
       - Objective, through quality indices (presented through tables)
       - Qualitative, by visually comparing the results
+Please follow the provided template to organize your data; the project structure is available at `projects\template\README.md`.
 
 ### Handing out your deliverables
 The deliverables have to be added to your project main folder according to the
@@ -125,7 +126,7 @@ Henceforth, in your project folder:
 
 The deliverables are to be provided through a merge request to the central repository.
 
-The instructions for interfacing through `git` are located in `0-template\docs\instructions_git.md`.
+The instructions for interfacing through `git` are located in `projects\template\docs\instructions_git.md`.
 
 
 ## Projects
