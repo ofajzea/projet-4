@@ -3,6 +3,7 @@ Log changes of the project
 # 2023
 
 - Added the projects from the students of the 2021-2022 course
+- Added automatic satellite image downloaders
 
 # 2022
 
