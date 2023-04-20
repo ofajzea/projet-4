@@ -9,8 +9,8 @@ Announcements will be posted here.
 
   * Contacts
     * Mauro Dalla Mura <mauro.dalla-mura@gipsa-lab.grenoble-inp.fr>
-    * Giuseppe Costantino <giuseppe.costantino@univ-grenoble-alpes.fr>
-    * Daniele Picone <daniele.picone@grenoble-inp.fr>
+    * Mohamad Jouni <mohamad.jouni@gipsa-lab.grenoble-inp.fr>
+    * Matthieu Muller <matthieu.muller@gipsa-lab.grenoble-inp.fr>
 
   * Important dates:
     * 5th May 2022: Intermediate presentation - 5 min pitch (3 slides)
@@ -120,9 +120,8 @@ Please follow the provided template to organize your data; the project structure
 The deliverables have to be added to your project main folder according to the
 project organization described in the following section.
 Henceforth, in your project folder:
-- `notebooks\YYYY_YYYY`: has to include the Jupyter notebook of your work
-- `reports\YYYY_YYYY`: has to contain the presentations and the final report
-  -  `YYYY_YYYY` is your academic year (e.g. `2021_2022`)
+- `notebooks\2022_2023`: has to include the Jupyter notebook of your work
+- `reports\2022_2023`: has to contain the presentations and the final report
 
 The deliverables are to be provided through a merge request to the central repository.
 
@@ -189,6 +188,8 @@ detection.](./docs/figs/ships_xs.jpg)
     total]
 
 ## Supervisors
+  - Mohamad Jouni (2022-2023)
+  - Matthieu Muller (2022-2023)
   - Mauro Dalla Mura (2016-2021)
   - Giuseppe Costantino (2021-2022)
   - Daniele Picone (2021-2022)
