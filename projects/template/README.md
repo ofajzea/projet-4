@@ -55,12 +55,12 @@ structure across different groups and across different academic years.
     │                     dataset, methods, etc.  
     ├── notebooks      <- Contains the Jupyter notebooks to present how to use  
     │   │                 the code from src
-    │   ├── 2021_2022  <- These are the notebooks that are strictly related to
+    │   ├── 2022_2023  <- These are the notebooks that are strictly related to
     │   │                 to your specific group. The notebooks should import
     │   │                 the code from the src directory.
     │   └─ tutorials   <- Includes sample scripts for common operations
     ├── reports        <- Contains reports and presentation
-    │   ├── 2021_2022  <- Contains the reports and presentation relative to the
+    │   ├── 2022_2023  <- Contains the reports and presentation relative to the
     │   │   │             specific academic year, and exclusively produced by
     │   │   │             your workgroup. 
     │   │   └─ LOG.md                 <- To track the progress at each session

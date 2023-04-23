@@ -13,8 +13,8 @@ Announcements will be posted here.
     * Matthieu Muller <matthieu.muller@gipsa-lab.grenoble-inp.fr>
 
   * Important dates:
-    * 5th May 2022: Intermediate presentation - 5 min pitch (3 slides)
-    * 26th May 2022: Final presentation (15 min presentation + 5-10 min Q&A)
+    * Intermediate presentation - 5 min pitch (3 slides): To be announced
+    * Final presentation (15 min presentation + 5-10 min Q&A): To be announced
 
 
 ## Course information
@@ -122,6 +122,8 @@ project organization described in the following section.
 Henceforth, in your project folder:
 - `notebooks\2022_2023`: has to include the Jupyter notebook of your work
 - `reports\2022_2023`: has to contain the presentations and the final report
+
+You may create the folder `2022_2023` if it does not exist already.
 
 The deliverables are to be provided through a merge request to the central repository.
 
