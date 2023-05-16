@@ -25,7 +25,7 @@
 ## Forking the original project
 
 - Login to your Gricad account
-- Go to `https://gricad-gitlab.univ-grenoble-alpes.fr/imspoc_gipsa/remote-sensing-projects`
+- Go to `https://gricad-gitlab.univ-grenoble-alpes.fr/dallamum/remote-sensing-projects`
 - Fork your project on your private account (click on the button `Fork` on top right)
 
 ## Initialize the git repository
@@ -46,7 +46,7 @@
 
 ## Setting the original repository as upstream
 - Add the original repository as remote source of your repository:
-    - ```git remote add upstream https://token_name:token_key@kegricad-gitlab.univ-grenoble-alpes.fr/imspoc_gipsa/remote-sensing-projects```
+    - ```git remote add upstream https://token_name:token_key@kegricad-gitlab.univ-grenoble-alpes.fr/dallamum/remote-sensing-projects```
     - where `token_key` is the token obtained in the `Managing permissions` section
 
 
@@ -70,7 +70,7 @@
   - For the source:
     - Select your own project and your currently active
   - For the destination:
-    - Select `https://gricad-gitlab.univ-grenoble-alpes.fr/imspoc_gipsa/remote-sensing-projects` 
+    - Select `https://gricad-gitlab.univ-grenoble-alpes.fr/dallamum/remote-sensing-projects` 
     - Select the branch `master`
   - Click on `Send a merge request`
   - Once approved, your code will be uploaded on the central repository
