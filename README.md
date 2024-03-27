@@ -189,8 +189,11 @@ detection.](./docs/figs/ships_xs.jpg)
   - Introductory videos at <https://git-scm.com/videos> [~30 min in
     total]
 
+## Coordinator
+  - Mauro Dalla Mura (2016-)
 ## Supervisors
-  - Mohamad Jouni (2022-2023)
+  - Mohamad Jouni (2022-2024)
+  - Chloé Poulic (2024)
   - Matthieu Muller (2022-2023)
   - Mauro Dalla Mura (2016-2021)
   - Giuseppe Costantino (2021-2022)
