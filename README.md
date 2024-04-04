@@ -8,10 +8,9 @@ Announcements will be posted here.
   * **Welcome to the remote sensing project**
 
   * Contacts
-    * Mauro Dalla Mura <mauro.dalla-mura@gipsa-lab.grenoble-inp.fr>
+    * Chloé Poulic <chloe.poulic@gipsa-lab.grenoble-inp.fr>
     * Mohamad Jouni <mohamad.jouni@gipsa-lab.grenoble-inp.fr>
-    * Matthieu Muller <matthieu.muller@gipsa-lab.grenoble-inp.fr>
-
+  
   * Important dates:
     * Intermediate presentation - 5 min pitch (3 slides): To be announced
     * Final presentation (15 min presentation + 5-10 min Q&A): To be announced
