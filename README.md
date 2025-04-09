@@ -8,8 +8,8 @@ Announcements will be posted here.
   * **Welcome to the remote sensing project**
 
   * Contacts
-    * Chloé Poulic <chloe.poulic@gipsa-lab.grenoble-inp.fr>
-    * Mohamad Jouni <mohamad.jouni@gipsa-lab.grenoble-inp.fr>
+    * Aurélien Godet <aurelien.godet@gipsa-lab.grenoble-inp.fr>
+    * Daniele Picone <daniele.picone@grenoble-inp.fr>
   
   * Important dates:
     * Intermediate presentation - 5 min pitch (3 slides): To be announced
@@ -185,18 +185,18 @@ detection.](./docs/figs/ships_xs.jpg)
   - conda cheatsheet <https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf>
 
 - Git
-  - Introductory videos at <https://git-scm.com/videos> [~30 min in
-    total]
+  - Introductory videos at <https://git-scm.com/videos> [~30 min in total]
 
 ## Coordinator
   - Mauro Dalla Mura (2016-)
 ## Supervisors
+  - Aurélien Godet (2025)
+  - Daniele Picone (2021-2022/2025)
   - Mohamad Jouni (2022-2024)
   - Chloé Poulic (2024)
   - Matthieu Muller (2022-2023)
   - Mauro Dalla Mura (2016-2021)
   - Giuseppe Costantino (2021-2022)
-  - Daniele Picone (2021-2022)
   - Aneline Dolet (2019-2021)
   - Théo Masson (2017-2018)
   - Guillaume Tochon (2016)
