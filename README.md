@@ -55,16 +55,12 @@ Additionally, the student will develop the following set of acquired skills:
 
 ## Organization
 - This project is organized into 10 session of 4 hours each.
-- The students will divide in groups of 3 to 4 students and approach one of the
-problems described in the `Projects` section, or some new proposal, which has
+- The students will divide in groups of 3 to 4 students and approach one of the problems described in the `Projects` section, or some new proposal, which has
 to be validated by one of the supervisors.
-- Each group is required to present a series of documents, as described in the
-`Deliverables` section.
-- The deliverables have to be presented through a merge request on the central
-git repository (that is, the repository where this file is located); more
-instructions are provided in the `Deliverables` section
-- The presence to each session is required and each absence will cause a
-penalization on your final score (0.25 deducted points for each missed hour).
+- Each group is required to present a series of documents, as described in the `Deliverables` section.
+- The deliverables have to be presented through a merge request on the central git repository (that is, the repository where this file is located); more
+instructions are provided in the `Deliverables` section.
+- The presence to each session is required and each absence will cause a penalization on your final score (0.25 deducted points for each missed hour).
 
 
 ## Deliverables
@@ -119,10 +115,8 @@ Please follow the provided template to organize your data; the project structure
 The deliverables have to be added to your project main folder according to the
 project organization described in the following section.
 Henceforth, in your project folder:
-- `notebooks\2022_2023`: has to include the Jupyter notebook of your work
-- `reports\2022_2023`: has to contain the presentations and the final report
-
-You may create the folder `2022_2023` if it does not exist already.
+- `notebooks`: has to include the Jupyter notebook of your work
+- `reports`: has to contain the presentations and the final report
 
 The deliverables are to be provided through a merge request to the central repository.
 
@@ -130,41 +124,41 @@ The instructions for interfacing through `git` are located in `projects\template
 
 
 ## Projects
-### [1 - Snow cover estimation based on remote sensing high spatial resolution images](1-snow_hr)
+### [1 - Snow cover estimation based on remote sensing high spatial resolution images](projects/subject/1_snow_hr)
 
 ![Sentinel-2](./docs/figs/S2_snow.png)
 
-### [2 - Snow cover estimation based on remote sensing time series](2-snow_ts)
+### [2 - Snow cover estimation based on remote sensing time series](projects/subject/2_snow_ts)
 
 ![MODIS_feb](./docs/figs/MODIS_feb.png)
 ![MODIS_may](./docs/figs/MODIS_may.png)
 
-### [3 - Mapping the Grenoble urban environment by remote sensing](3-urban)
+### [3 - Mapping the Grenoble urban environment by remote sensing](projects/subject/3_urban)
 
 ![urban](./docs/figs/Grenoble_classif.png)
 
-### [4 - Monitoring pollution in the atmosphere](4-pollution)
+### [4 - Monitoring pollution in the atmosphere](projects/subject/4_pollution)
 
 ![NO2map](./docs/figs/NO2map.png)
 
-### [5 - Analysis of the forest around Grenoble using remote sensing imaging](5-forest)
+### [5 - Analysis of the forest around Grenoble using remote sensing imaging](projects/subject/5_forest)
 
 ![Forest](./docs/figs/Cluster.png)
 
-### [6 - Solar irradiance estimation at GreEn-Er](6-irradiance)
+### [6 - Solar irradiance estimation at GreEn-Er](projects/subject/6_irradiance)
 
 ![irradiance](./docs/figs/cam2_UTC_19-01-02_10-59-59-84.jpg)
 
-### [7 - Urban Monitoring: Change Detection Bundle](7-change_detection)
+### [7 - Urban Monitoring: Change Detection Bundle](projects/subject/7_change_detection)
 
 ![change_detection](./docs/figs/change-detection.jpg)
 
-### [8 - Ship detection challenge](8-ship_detection)
+### [8 - Ship detection challenge](projects/subject/8_ship_detection)
 
 ![Example of image acquired by SPOT for ship
 detection.](./docs/figs/ships_xs.jpg)
 
-### [9 - Remote Sensing video analysis](9-rs_video)
+### [9 - Remote Sensing video analysis](projects/subject/9_rs_video)
 
 <!-- blank line -->
 <figure class="video_container">
