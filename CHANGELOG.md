@@ -1,5 +1,12 @@
 Log changes of the project
 
+
+# 2025
+
+- Added new project specific template under /projects/subject
+- Added projects reports from 2024
+- Switched datasets to huggingface repositories
+
 # 2023
 
 - Added the projects from the students of the 2021-2022 course
