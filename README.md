@@ -12,8 +12,8 @@ Announcements will be posted here.
     * Daniele Picone <daniele.picone@grenoble-inp.fr>
   
   * Important dates:
-    * Intermediate presentation - 5 min pitch (3 slides): To be announced
-    * Final presentation (15 min presentation + 5-10 min Q&A): To be announced
+    * Intermediate presentation - 5 min pitch (3 slides): 12/05/2025
+    * Final presentation (15 min presentation + 5-10 min Q&A): 22/05/2025
 
 
 ## Course information
@@ -147,7 +147,9 @@ The deliverables are to be provided through a merge request to the central repos
 The instructions for interfacing through `git` are located in `projects\template\docs\instructions_git.md`.
 
 
-## Projects
+# Projects
+
+## Active projects
 
 ### [2 - Snow cover estimation based on remote sensing time series](projects/subject/02_snow_ts)
 
@@ -183,11 +185,11 @@ detection.](./docs/figs/ships_xs.jpg)
  
 ### [1 - Snow cover estimation based on remote sensing high spatial resolution images](projects/subject/01_snow_hr)
 
-[//]: <> ![Sentinel-2](./docs/figs/S2_snow.png)
+<!--- ![Sentinel-2](./docs/figs/S2_snow.png) --->
 
 ### [7 - Urban Monitoring: Change Detection Bundle](projects/subject/07_change_detection)
 
-[//]: <> ![change_detection](./docs/figs/change-detection.jpg)
+<!--- ![change_detection](./docs/figs/change-detection.jpg) --->
 
 ### [9 - Remote Sensing video analysis](projects/subject/09_rs_video)
 
