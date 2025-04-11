@@ -50,29 +50,23 @@ structure across different groups and across different academic years.
     project            <- Root folder of your project. Do not add or change any 
     │                     file outside this folder.  
     ├── data           <- Contains a subset of the data, with relatively small  
-    │                     size (<10 MB), to run a demo of your script.  
+    │   │                 size (<10 MB), to run a demo of your script. 
+    │   ├── raw        <- Input data
+    │   └── outputs    <- Processed data
     ├── docs           <- Contains the official documentation related to the  
     │                     dataset, methods, etc.  
-    ├── notebooks      <- Contains the Jupyter notebooks to present how to use  
-    │   │                 the code from src
-    │   ├── 2022_2023  <- These are the notebooks that are strictly related to
-    │   │                 to your specific group. The notebooks should import
-    │   │                 the code from the src directory.
-    │   └─ tutorials   <- Includes sample scripts for common operations
+    ├── notebooks      <- Contains the Jupyter notebooks to present how to use
     ├── reports        <- Contains reports and presentation
-    │   ├── 2022_2023  <- Contains the reports and presentation relative to the
-    │   │   │             specific academic year, and exclusively produced by
-    │   │   │             your workgroup. 
-    │   │   └─ LOG.md                 <- To track the progress at each session
-    │   │      presentation_mid.pdf   <- Mid-project presentation slides
-    │   │      presentation.pdf       <- Final presentation slides
-    │   │      report.pdf             <- Final report
+    │   ├── presentation_mid.pdf   <- Mid-project presentation slides
+    │   ├── presentation.pdf       <- Final presentation slides
+    │   ├── report.pdf             <- Final report
     │   └── figures    <- Raw figures that you generated for your reports
     └── src            <- Contains the source code in Python for the specific  
                           project. Ideally to be expanded upon each year.
+    LOG.md             <- To track the progress at each session
     README.md          <- This file, which has to include a generic description
                           of your project.
-    requirements.txt   <- Add here a list of all the libraries you included
+    pyproject.toml     <- Add here a list of all the libraries you included
     .gitignore         <- List of folders and files not to upload to git
 ------------
  
