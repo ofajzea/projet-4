@@ -1,5 +1,6 @@
 from pathlib import Path
 import os
+import shutil
 
 import numpy as np
 import pandas as pd
@@ -41,7 +42,7 @@ def download_data():
                 token=os.getenv("HUGGINGFACE_TOKEN"),
             )
         except Exception as e:
-            target_directory.rmdir()
+            shutil.rmtree(target_directory)
             raise ValueError(
                 f"Error downloading repository." +
                 f"{e}"

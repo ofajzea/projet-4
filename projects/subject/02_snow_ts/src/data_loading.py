@@ -1,5 +1,6 @@
 from pathlib import Path
 import os
+import shutil
 
 import numpy as np
 import huggingface_hub
@@ -26,7 +27,7 @@ def download_data():
                 token=os.getenv("HUGGINGFACE_TOKEN"),
             )
         except Exception as e:
-            target_directory.rmdir()
+            shutil.rmtree(target_directory)
             raise ValueError(
                 f"Error downloading repository." +
                 f"{e}"
@@ -49,7 +50,7 @@ def data_info():
 
 def visualize_data():
     filename_rgb = "data/raw/sentinel_3_snow_coverage/data/TC_05_01_20.tiff"
-    cwd = Path(__file__).resolve().parent
+    cwd = Path(__file__).resolve().parents[1]
     file_rgb = cwd / filename_rgb
 
     with rasterio.open(file_rgb) as img_rgb:
