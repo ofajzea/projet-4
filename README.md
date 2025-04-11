@@ -148,9 +148,6 @@ The instructions for interfacing through `git` are located in `projects\template
 
 
 ## Projects
-### [1 - Snow cover estimation based on remote sensing high spatial resolution images](projects/subject/01_snow_hr)
-
-![Sentinel-2](./docs/figs/S2_snow.png)
 
 ### [2 - Snow cover estimation based on remote sensing time series](projects/subject/02_snow_ts)
 
@@ -173,14 +170,24 @@ The instructions for interfacing through `git` are located in `projects\template
 
 ![irradiance](./docs/figs/cam2_UTC_19-01-02_10-59-59-84.jpg)
 
-### [7 - Urban Monitoring: Change Detection Bundle](projects/subject/07_change_detection)
-
-![change_detection](./docs/figs/change-detection.jpg)
-
 ### [8 - Ship detection challenge](projects/subject/08_ship_detection)
 
 ![Example of image acquired by SPOT for ship
 detection.](./docs/figs/ships_xs.jpg)
+
+### [10 - Pansharpening with SPOT](projects/subject/10_pansharpening)
+
+![Example of SPOT multispectral and panchromatic](./docs/figs/pansharpening.png)
+
+## Inactive projects
+ 
+### [1 - Snow cover estimation based on remote sensing high spatial resolution images](projects/subject/01_snow_hr)
+
+[//]: <> ![Sentinel-2](./docs/figs/S2_snow.png)
+
+### [7 - Urban Monitoring: Change Detection Bundle](projects/subject/07_change_detection)
+
+[//]: <> ![change_detection](./docs/figs/change-detection.jpg)
 
 ### [9 - Remote Sensing video analysis](projects/subject/09_rs_video)
 

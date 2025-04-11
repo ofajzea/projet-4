@@ -1,11 +1,11 @@
 from pathlib import Path
 import os
+import shutil
 
 import numpy as np
-import pandas as pd
 import huggingface_hub
 import matplotlib.pyplot as plt
-import tifffile
+import imageio
 
 def download_data():
     # The repository of this data is private
@@ -24,10 +24,10 @@ def download_data():
 
 
     # Download target folder relative to current path
-    out_folder = "data/raw/forest-plot-analysis"
+    out_folder = "data/raw/spot-pansharpening"
 
     # Example data repository name
-    repository = "remote-sensing-ense3-grenoble-inp/forest-plot-analysis"
+    repository = "remote-sensing-ense3-grenoble-inp/spot-pansharpening"
 
     cwd = Path(__file__).resolve().parents[1]
     target_directory = cwd / out_folder
@@ -41,7 +41,7 @@ def download_data():
                 token=os.getenv("HUGGINGFACE_TOKEN"),
             )
         except Exception as e:
-            target_directory.rmdir()
+            shutil.rmtree(target_directory)
             raise ValueError(
                 f"Error downloading repository." +
                 f"{e}"
@@ -49,41 +49,31 @@ def download_data():
 
 
 def visualize_data():
-    filename_hsi = "data/raw/forest-plot-analysis/data/hi/1.tif"
-    filename_label = "data/raw/forest-plot-analysis/data/gt/df_pixel.csv"
-    rgb_channels = [64, 28, 15]
-    plot_id = "1"
+    filename_ms = "data/raw/spot-pansharpening/data/1.TIF"
+    filename_pan = "data/raw/spot-pansharpening/data/3.TIF"
 
-    cwd = Path(__file__).resolve().parents[1]
-    file_hsi = cwd / filename_hsi
-    file_label = cwd / filename_label
+    cwd = Path(__file__).resolve().parent
+    file_ms = cwd / filename_ms
+    file_pan = cwd / filename_pan
 
-    rgb_array = tifffile.TiffFile(file_hsi)
-    rgb_array = rgb_array.asarray()
-    rgb_array = rgb_array[:, :, rgb_channels]
-    rgb_array = rgb_array / rgb_array.max()
-
-    df = pd.read_csv(file_label)
-    df = df[df["plotid"] == plot_id]
-    img_label = np.zeros((rgb_array.shape[0], rgb_array.shape[1], 3))
-
-    tree_ids = df["specie"].unique()
-    color_map = {tree_id: color for tree_id, color in zip(tree_ids, plt.cm.tab20.colors)}
-    for _, row in df.iterrows():
-        color = color_map[row["specie"]]
-        img_label[int(row["row"]), int(row["col"])] = color
+    img_ms = imageio.v3.imread(file_ms)
+    img_ms = np.moveaxis(img_ms,[-3, -2, -1], [2, 0, 1])
+    img_ms = img_ms / 255
+    img_pan = imageio.v3.imread(file_pan)
+    img_pan = np.moveaxis(img_pan, [-2, -1], [0, 1])
+    img_pan = img_pan / 255
 
     fig, ax = plt.subplots(1, 2)
-    ax[0].imshow(rgb_array)
-    ax[0].set_title("Hyperspectral image")
-    ax[1].imshow(img_label)
-    ax[1].set_title("Labels map")
+    ax[0].imshow(img_ms)
+    ax[0].set_title("Multispectral")
+    ax[1].imshow(img_pan, cmap="gray")
+    ax[1].set_title("Panchromatic")
     plt.show()
-
 
 def main():
     download_data()
     visualize_data()
+
 
 if __name__ == "__main__":
     main()
