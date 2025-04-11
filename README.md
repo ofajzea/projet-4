@@ -81,6 +81,7 @@ instructions are provided in the `Deliverables` section.
   - `src`: contains the python scripts
   - `data\raw`: contains the input data
   - `data\ouputs`: contains the processed data
+  - `notebooks`: contains the jupyter notebooks
   - `reports`: contains the presentation and reports described in the deliverables section
   - `reports\figures`: contains the figures you added to your reports or presentation
 
