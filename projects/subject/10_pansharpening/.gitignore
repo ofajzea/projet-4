@@ -110,6 +110,8 @@ uv.lock
 poetry.lock
 
 # Custom exclusions
-data/*
-!data/readme.txt
-
+data/raw/*
+!data/raw/readme.txt
+!data/raw/.gitkeep
+data/outputs/*
+!data/outputs/.gitkeep
