@@ -23,10 +23,10 @@ def download_data():
     #      ```
 
     # Download target folder relative to current path
-    out_folder = "data/raw/spot-pansharpening"
+    out_folder = "data/raw/deforestation-amazon"
 
     # Example data repository name
-    repository = "remote-sensing-ense3-grenoble-inp/spot-pansharpening"
+    repository = "remote-sensing-ense3-grenoble-inp/deforestation-amazon"
 
     cwd = Path(__file__).resolve().parents[1]
     target_directory = cwd / out_folder
@@ -46,32 +46,8 @@ def download_data():
                 f"{e}"
             )
 
-
-def visualize_data():
-    filename_ms = "data/raw/spot-pansharpening/data/1.TIF"
-    filename_pan = "data/raw/spot-pansharpening/data/3.TIF"
-
-    cwd = Path(__file__).resolve().parents[1]
-    file_ms = cwd / filename_ms
-    file_pan = cwd / filename_pan
-
-    img_ms = imageio.v3.imread(file_ms)
-    img_ms = np.moveaxis(img_ms,[-3, -2, -1], [2, 0, 1])
-    img_ms = img_ms / 255
-    img_pan = imageio.v3.imread(file_pan)
-    img_pan = np.moveaxis(img_pan, [-2, -1], [0, 1])
-    img_pan = img_pan / 255
-
-    fig, ax = plt.subplots(1, 2)
-    ax[0].imshow(img_ms)
-    ax[0].set_title("Multispectral")
-    ax[1].imshow(img_pan, cmap="gray")
-    ax[1].set_title("Panchromatic")
-    plt.show()
-
 def main():
     download_data()
-    visualize_data()
 
 
 if __name__ == "__main__":

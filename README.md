@@ -192,11 +192,12 @@ The instructions for interfacing through `git` are located in `projects\template
 
 ### [9 - Remote Sensing video analysis](projects/subjects/09_rs_video)
 
-<!-- blank line -->
-<figure class="video_container">
-  <iframe src="https://sandbox.intelligence-airbusds.com/web/assets/mp4/beach.mp4" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-<!-- blank line -->
+<!---
+  <figure class="video_container">
+    <iframe src="https://sandbox.intelligence-airbusds.com/web/assets/mp4/beach.mp4" frameborder="0" allowfullscreen="true"> </iframe>
+  </figure>
+--->
+### [11 - Deforestation of the Amazon forest](projects/subjects/11_deforestation)
 
 
 ## Useful resources
