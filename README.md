@@ -65,7 +65,7 @@ instructions are provided in the `Deliverables` section.
 ## Getting started with your project
 
 - Fork this repository to your own account on GRICAD
-- Copy the folder of your chosen project from `projects\subject` to the one of your academic year
+- Copy the folder of your chosen project from `projects\subjects` to the one of your academic year
   (e.g. `projects\2024_2025` for 2024/2025).
 - Create a virtual environment with conda (https://www.anaconda.com/docs/getting-started/miniconda/main) using your terminal:
   ```bash
@@ -151,46 +151,46 @@ The instructions for interfacing through `git` are located in `projects\template
 
 ## Active projects
 
-### [2 - Snow cover estimation based on remote sensing time series](projects/subject/02_snow_ts)
+### [2 - Snow cover estimation based on remote sensing time series](projects/subjects/02_snow_ts)
 
 ![MODIS_feb](./docs/figs/MODIS_feb.png)
 ![MODIS_may](./docs/figs/MODIS_may.png)
 
-### [3 - Mapping the Grenoble urban environment by remote sensing](projects/subject/03_urban)
+### [3 - Mapping the Grenoble urban environment by remote sensing](projects/subjects/03_urban)
 
 ![urban](./docs/figs/Grenoble_classif.png)
 
-### [4 - Monitoring pollution in the atmosphere](projects/subject/04_pollution)
+### [4 - Monitoring pollution in the atmosphere](projects/subjects/04_pollution)
 
 ![NO2map](./docs/figs/NO2map.png)
 
-### [5 - Analysis of the forest around Grenoble using remote sensing imaging](projects/subject/05_forest)
+### [5 - Analysis of the forest around Grenoble using remote sensing imaging](projects/subjects/05_forest)
 
 ![Forest](./docs/figs/Cluster.png)
 
-### [6 - Solar irradiance estimation at GreEn-Er](projects/subject/06_irradiance)
+### [6 - Solar irradiance estimation at GreEn-Er](projects/subjects/06_irradiance)
 
 ![irradiance](./docs/figs/cam2_UTC_19-01-02_10-59-59-84.jpg)
 
-### [8 - Ship detection challenge](projects/subject/08_ship_detection)
+### [8 - Ship detection challenge](projects/subjects/08_ship_detection)
 
 ![Example of image acquired by SPOT for ship detection.](./docs/figs/ships_xs.jpg)
 
-### [10 - Pansharpening with SPOT](projects/subject/10_pansharpening)
+### [10 - Pansharpening with SPOT](projects/subjects/10_pansharpening)
 
 ![Example of SPOT multispectral and panchromatic](./docs/figs/pansharpening.png)
 
 ## Inactive projects
  
-### [1 - Snow cover estimation based on remote sensing high spatial resolution images](projects/subject/01_snow_hr)
+### [1 - Snow cover estimation based on remote sensing high spatial resolution images](projects/subjects/01_snow_hr)
 
 <!--- ![Sentinel-2](./docs/figs/S2_snow.png) --->
 
-### [7 - Urban Monitoring: Change Detection Bundle](projects/subject/07_change_detection)
+### [7 - Urban Monitoring: Change Detection Bundle](projects/subjects/07_change_detection)
 
 <!--- ![change_detection](./docs/figs/change-detection.jpg) --->
 
-### [9 - Remote Sensing video analysis](projects/subject/09_rs_video)
+### [9 - Remote Sensing video analysis](projects/subjects/09_rs_video)
 
 <!-- blank line -->
 <figure class="video_container">
