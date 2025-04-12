@@ -1,4 +1,4 @@
-![./docs/figs/Ense3.png](./docs/figs/Ense3.png)
+![./docs/figs/GrenobleINP-Ense3_120px.png](./docs/figs/GrenobleINP-Ense3_120px.png)
 # Remote Sensing Projects
 Remote Sensing Projects at ENSE3, Grenoble-INP.
 
@@ -168,10 +168,13 @@ The instructions for interfacing through `git` are located in `projects\template
 
 ![Forest](./docs/figs/Cluster.png)
 
+### [6 - Solar irradiance estimation at GreEn-Er](projects/subject/06_irradiance)
+
+![irradiance](./docs/figs/cam2_UTC_19-01-02_10-59-59-84.jpg)
+
 ### [8 - Ship detection challenge](projects/subject/08_ship_detection)
 
-![Example of image acquired by SPOT for ship
-detection.](./docs/figs/ships_xs.jpg)
+![Example of image acquired by SPOT for ship detection.](./docs/figs/ships_xs.jpg)
 
 ### [10 - Pansharpening with SPOT](projects/subject/10_pansharpening)
 
@@ -182,10 +185,6 @@ detection.](./docs/figs/ships_xs.jpg)
 ### [1 - Snow cover estimation based on remote sensing high spatial resolution images](projects/subject/01_snow_hr)
 
 <!--- ![Sentinel-2](./docs/figs/S2_snow.png) --->
-
-### [6 - Solar irradiance estimation at GreEn-Er](projects/subject/06_irradiance)
-
-<!--- ![irradiance](./docs/figs/cam2_UTC_19-01-02_10-59-59-84.jpg) --->
 
 ### [7 - Urban Monitoring: Change Detection Bundle](projects/subject/07_change_detection)
 

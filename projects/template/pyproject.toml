@@ -21,6 +21,7 @@ dependencies = [
     "xarray>=2025.3.1",
     "netcdf4>=1.7.2",
     "h5netcdf>=1.6.1",
+    "kaggle>=1.7.4.2",
 ]
 
 
