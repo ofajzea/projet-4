@@ -65,28 +65,6 @@ Additionally, the student will develop the following set of acquired skills:
   instructions are provided in the `Deliverables` section.
 - The presence to each session is required and each absence will cause a 
   penalization on your final score (0.25 deducted points for each missed hour).
-## Getting started with your project
-
-- Fork this repository to your own account on GRICAD
-- Copy the folder of your chosen project from `projects\subjects` to the one of your academic year
-  (e.g. `projects\2024_2025` for 2024/2025).
-- Create a virtual environment with conda (https://www.anaconda.com/docs/getting-started/miniconda/main) using your terminal:
-  ```bash
-  conda create --name my_env python=3.11
-  conda activate my_env
-  ```
-- Then install all the dependencies with `pip install` once activate
-- Optionally, keep track of your dependencies adding them to `pyproject.toml`
-
-- For your structure, please follow the following format:
-  - `README.md`: contains the description of the project
-  - `LOG.md`: contains your names and the logs for each session
-  - `src`: contains the python scripts
-  - `data\raw`: contains the input data
-  - `data\ouputs`: contains the processed data
-  - `notebooks`: contains the jupyter notebooks
-  - `reports`: contains the presentation and reports described in the deliverables section
-  - `reports\figures`: contains the figures you added to your reports or presentation
 
 ## Getting started
 
@@ -104,17 +82,11 @@ To begin this project:
   ```
 - Install all the dependencies with `pip install` once the environment is 
   activated.
-
-- For your project structure, please follow the following format:
-  - `README.md`: Description of the project;
-  - `LOG.md`: Group member names and the logs for each session;
-  - `pyproject.toml`: To keep track of your library dependencies;
-  - `src`: For pure python scripts;
-  - `data\raw`: Input data;
-  - `data\ouputs`: Processed data;
-  - `notebooks`: Jupyter or marimo notebooks;
-  - `reports`: Presentations and reports described in the deliverables section;
-  - `reports\figures`: Figures added to your reports or presentation.
+- From the folder of your project you can also install a starting environment,
+  by typing:
+```bash
+pip install -e .
+```
   
 
 ## Deliverables
