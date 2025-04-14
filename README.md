@@ -55,13 +55,16 @@ Additionally, the student will develop the following set of acquired skills:
 
 ## Organization
 - This project is organized into 10 session of 4 hours each.
-- The students will divide in groups of 3 to 4 students and approach one of the problems described in the `Projects` section, or some new proposal, which has
-to be validated by one of the supervisors.
-- Each group is required to present a series of documents, as described in the `Deliverables` section.
-- The deliverables have to be presented through a merge request on the central git repository (that is, the repository where this file is located); more
-instructions are provided in the `Deliverables` section.
-- The presence to each session is required and each absence will cause a penalization on your final score (0.25 deducted points for each missed hour).
-
+- The students will divide in groups of 3 to 4 students and approach one of 
+  the problems described in the `Projects` section, or some new proposal, which 
+  has to be validated by one of the supervisors.
+- Each group is required to present a series of documents, as described in the 
+  `Deliverables` section.
+- The deliverables have to be presented through a merge request on the central 
+  git repository (that is, the repository where this file is located); more
+  instructions are provided in the `Deliverables` section.
+- The presence to each session is required and each absence will cause a 
+  penalization on your final score (0.25 deducted points for each missed hour).
 ## Getting started with your project
 
 - Fork this repository to your own account on GRICAD
@@ -85,13 +88,41 @@ instructions are provided in the `Deliverables` section.
   - `reports`: contains the presentation and reports described in the deliverables section
   - `reports\figures`: contains the figures you added to your reports or presentation
 
+## Getting started
 
+To begin this project:
+
+- Fork this repository to your own account on GRICAD
+- Copy the folder of your chosen project from `projects\subjects` to the one of 
+  your academic year (e.g. `projects\2024_2025` for 2024/2025).
+- Create a virtual environment with conda 
+  (https://www.anaconda.com/docs/getting-started/miniconda/main) using your 
+  terminal:
+  ```bash
+  conda create --name my_env python=3.11
+  conda activate my_env
+  ```
+- Install all the dependencies with `pip install` once the environment is 
+  activated.
+
+- For your project structure, please follow the following format:
+  - `README.md`: Description of the project;
+  - `LOG.md`: Group member names and the logs for each session;
+  - `pyproject.toml`: To keep track of your library dependencies;
+  - `src`: For pure python scripts;
+  - `data\raw`: Input data;
+  - `data\ouputs`: Processed data;
+  - `notebooks`: Jupyter or marimo notebooks;
+  - `reports`: Presentations and reports described in the deliverables section;
+  - `reports\figures`: Figures added to your reports or presentation.
+  
 
 ## Deliverables
 
 The project requires to hand the following material.
 Note:
-- Please include the names of all the members of the group.
+- Please include the names of all the members of the group in both presentation, 
+  reports and in the `LOG.md` file in your project folder.
 - All the material (code included) has to be provided in English.
 
 ### Mid course deliverable
@@ -115,17 +146,19 @@ have to include:
 
 ### End course deliverable
 At the final session of the course, each group has to provide:
-- A notebook describing how to access the code in your project, which has to include:
+- A notebook describing how to access the code in your project, which has to 
+  include:
   - How download the data from an online platform;
   - A data visualization, highlighting its peculiarities;
   - A script to showcase all the tested methods;
   - Tests, experiments and results comparisons
-  - *NOTE:* The actual code in the notebook has to be minimal, as it has to
-    just call the functions contained in your `src` folder
+  - *NOTE:* The code in the notebook has to be minimal, calling the functions 
+    contained in your `src` folder.
 - A pdf for the final presentation slides, extending the mid-course one with:
   - A description of the methods
   - A visual comparison of the results
-- A final report written in LaTex, which details all the work done during the project:
+- A final report written in LaTex, which details all the work done during the 
+  project:
     - Sources used in your work (literature, online repositories)
     - Problem statement, with detailed formulation of the input and outputs
     - Mathematical description of the methods
@@ -138,13 +171,27 @@ Please follow the provided template to organize your data; the project structure
 ### Handing out your deliverables
 The deliverables have to be added to your project main folder according to the
 project organization described in the following section.
+
+Please follow the provided template to organize your data. 
+The project structure is available at `projects\template\README.md`, also 
+described in the "Getting started" section.
+
 Henceforth, in your project folder:
-- `notebooks`: has to include the Jupyter notebook of your work
-- `reports`: has to contain the presentations and the final report
+- `notebooks`: has to include the Jupyter notebook of your work (Note: marimo 
+  notebooks are also accepted).
+- `reports`: has to contain the presentations and the final report.
+- `src`: has to include the clean Python scripts.
 
-The deliverables are to be provided through a merge request to the central repository.
+The deliverables are to be provided either:
+- as a merge request to the central repository. Please do not make any change 
+  outside your assigned folder (should be `projects/20xx_20xx/xx-projectname`).
+- as a mail to the supervisors (please include only your project folder), 
+  using a (Renater)[https://filesender.renater.fr/] link.
+- through Chamilo in the Traveaux `Teledetection_G2` folder, uploading a zip 
+  file of your project folder).
 
-The instructions for interfacing through `git` are located in `projects\template\docs\instructions_git.md`.
+The instructions for interfacing through `git` are located in 
+`projects\template\docs\instructions_git.md`.
 
 
 # Projects
@@ -207,8 +254,6 @@ The instructions for interfacing through `git` are located in `projects\template
     - [optional] Ch. 3, 5 (Pandas, Machine Learning)
     - [jupyter.pdf](docs/python/jupyter.pdf)
   - [optional] Tutorial on Jupyter showcasing jupyter features and installation  <https://www.youtube.com/watch?v=HW29067qVWk>
-  - [optional] Video on downsides of using jupyter notebooks
-  <https://www.youtube.com/watch?v=7jiPeIFXb6U>
   - conda cheatsheet <https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf>
 
 - Git
