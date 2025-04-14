@@ -32,7 +32,7 @@ In this project, students will put into practice the knowledge acquired
 in image and signal processing courses on 6 different remote sensing
 applications related to the observation of the environment.
 
-This project will be developed in python.
+This project will be developed in Python.
 
 ### Objectives of the course
 The main objectives of this project are:
@@ -87,7 +87,9 @@ To begin this project:
 ```bash
 pip install -e .
 ```
-  
+
+- Note: Projects from previous years are available at:
+  https://gricad-gitlab.univ-grenoble-alpes.fr/piconed/remote-sensing-projects-archive
 
 ## Deliverables
 
@@ -159,8 +161,8 @@ The deliverables are to be provided either:
   outside your assigned folder (should be `projects/20xx_20xx/xx-projectname`).
 - as a mail to the supervisors (please include only your project folder), 
   using a (Renater)[https://filesender.renater.fr/] link.
-- through Chamilo in the Traveaux `Teledetection_G2` folder, uploading a zip 
-  file of your project folder).
+- through Chamilo in the Travaux section, within the  `Projet Teledetection` 
+  group of your academic year, uploading a zip file of your project folder.
 
 The instructions for interfacing through `git` are located in 
 `projects\template\docs\instructions_git.md`.

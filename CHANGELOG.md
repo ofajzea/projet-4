@@ -6,6 +6,7 @@ Log changes of the project
 - Added new project specific template under /projects/subject
 - Added projects reports from 2024
 - Switched datasets to huggingface repositories
+- Moved previous projects to archived repository
 
 # 2023
 
