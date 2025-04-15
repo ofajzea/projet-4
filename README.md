@@ -90,6 +90,8 @@ pip install -e .
 
 - Note: Projects from previous years are available at:
   https://gricad-gitlab.univ-grenoble-alpes.fr/piconed/remote-sensing-projects-archive
+- Some datasets associated to the projects are available at:
+  https://huggingface.co/remote-sensing-ense3-grenoble-inp
 
 ## Deliverables
 
