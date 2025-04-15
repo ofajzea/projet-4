@@ -10,6 +10,8 @@ dependencies = [
     "numpy>=2.2.4",
     "pyqt5>=5.15.11; sys_platform == 'linux'",
     "rasterio>=1.4.3",
+    "scipy>=1.15.2",
+    "tifffile>=2025.3.30",
 ]
 
 

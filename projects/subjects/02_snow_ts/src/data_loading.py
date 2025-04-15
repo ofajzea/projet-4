@@ -6,14 +6,16 @@ import numpy as np
 import huggingface_hub
 import rasterio
 import matplotlib.pyplot as plt
+from scipy.io import loadmat
+import tifffile
 
 
 def download_data():
     # Download target folder relative to current path
-    out_folder = "data/raw/sentinel_3_snow_coverage"
+    out_folder = "data/raw/modis-snow-coverage"
 
     # Example data repository name
-    repository = "remote-sensing-ense3-grenoble-inp/sentinel_3_snow_coverage"
+    repository = "remote-sensing-ense3-grenoble-inp/modis-snow-coverage"
 
     cwd = Path(__file__).resolve().parents[1]
     target_directory = cwd / out_folder
@@ -34,7 +36,7 @@ def download_data():
             )
 
 def data_info():
-    filename_ndsi = "data/raw/sentinel_3_snow_coverage/data/05_01_20.tiff"
+    filename_ndsi = "data/raw/modis-snow-coverage/data/2013039/Modimlab_2013039_reproj2.tif"
 
     cwd = Path(__file__).resolve().parents[1]
     file_ndsi = cwd / filename_ndsi
@@ -49,17 +51,27 @@ def data_info():
 
 
 def visualize_data():
-    filename_rgb = "data/raw/sentinel_3_snow_coverage/data/TC_05_01_20.tiff"
+    filename_hsi = "data/raw/modis-snow-coverage/data/2013039/Modimlab_2013039_reproj2.tif"
+    filename_mat = "data/raw/modis-snow-coverage/data/2013039/Spot_degrade_2013039.mat"
     cwd = Path(__file__).resolve().parents[1]
-    file_rgb = cwd / filename_rgb
+    file_hsi = cwd / filename_hsi
+    file_mat = cwd / filename_mat
 
-    with rasterio.open(file_rgb) as img_rgb:
-        rgb_array = img_rgb.read()
-        rgb_array = np.moveaxis(rgb_array, [-3, -2, -1], [2, 0, 1])
-        rgb_array = rgb_array / rgb_array.max()
+    mat_handler = loadmat(file_mat)
+    array_spot = mat_handler["Spot_degrade"]
 
-    fig, ax = plt.subplots()
-    ax.imshow(rgb_array)
+    rgb_channels = [0, 3, 2]
+
+    array = tifffile.imread(file_hsi)
+    array = np.nan_to_num(array, nan=0.0)
+    rgb_array = array[:, :, rgb_channels]
+    rgb_array = rgb_array / rgb_array.max()
+
+    fig, ax = plt.subplots(1, 2)
+    ax[0].imshow(rgb_array)
+    ax[0].set_title("MODIS acquisition")
+    ax[1].imshow(array_spot, cmap="gray")
+    ax[1].set_title("SPOT refererence")
     plt.show()
 
 
