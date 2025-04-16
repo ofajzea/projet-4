@@ -73,21 +73,18 @@ To begin this project:
 - Fork this repository to your own account on GRICAD
 - Copy the folder of your chosen project from `projects\subjects` to the one of 
   your academic year (e.g. `projects\2024_2025` for 2024/2025).
-- Create a virtual environment with conda 
-  (https://www.anaconda.com/docs/getting-started/miniconda/main) using your 
-  terminal:
-  ```bash
-  conda create --name my_env python=3.11
-  conda activate my_env
-  ```
-- Install all the dependencies with `pip install` once the environment is 
-  activated.
-- From the folder of your project you can also install a starting environment,
-  by typing:
+- Install your project dependencies and download the data for your project by typing in the terminal:
 ```bash
-pip install -e .
+cd projects/20xx_20xx/xx-projectname
+source install.sh
 ```
-
+- Note for the **_project n°5 and n°6_**: The downloading of the data is done via HuggingFace which requires a credential to 
+access to. You have to ask for a Token to the supervisor of your project. 
+  Once you have it, you can set it in your environment by typing:
+```bash
+cd projects/20xx_20xx/xx-projectname
+source install.sh token
+```
 - Note: Projects from previous years are available at:
   https://gricad-gitlab.univ-grenoble-alpes.fr/piconed/remote-sensing-projects-archive
 - Some datasets associated to the projects are available at:
