@@ -78,13 +78,8 @@ To begin this project:
 cd projects/20xx_20xx/xx-projectname
 source install.sh
 ```
-- Note for the **_project n°5 and n°6_**: The downloading of the data is done via HuggingFace which requires a credential to 
-access to. You have to ask for a Token to the supervisor of your project. 
-  Once you have it, you can set it in your environment by typing:
-```bash
-cd projects/20xx_20xx/xx-projectname
-source install.sh token
-```
+- Update the # Group Member names section of the `LOG.md` file in your project folder
+  with the names of all the members of your group. 
 - Note: Projects from previous years are available at:
   https://gricad-gitlab.univ-grenoble-alpes.fr/piconed/remote-sensing-projects-archive
 - Some datasets associated to the projects are available at:
@@ -96,6 +91,8 @@ The project requires to hand the following material.
 Note:
 - Please include the names of all the members of the group in both presentation, 
   reports and in the `LOG.md` file in your project folder.
+- Please update at the end of each session the `LOG.md` file in your project folder 
+  with the work done during the session and the work planned for the next one.
 - All the material (code included) has to be provided in English.
 
 ### Mid course deliverable
