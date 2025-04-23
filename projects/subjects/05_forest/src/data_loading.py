@@ -7,6 +7,7 @@ import pandas as pd
 import huggingface_hub
 import matplotlib.pyplot as plt
 import tifffile
+import matplotlib.patches as mpatches
 
 def download_data():
     # The repository of this data is private
@@ -50,10 +51,20 @@ def download_data():
 
 
 def visualize_data():
-    filename_hsi = "data/raw/forest-plot-analysis/data/hi/1.tif"
+    filename_hsi = {
+        "1": "data/raw/forest-plot-analysis/data/hi/1.tif",
+        "1b": "data/raw/forest-plot-analysis/data/hi/1b.tif",
+        "2": "data/raw/forest-plot-analysis/data/hi/2.tif",
+        "3": "data/raw/forest-plot-analysis/data/hi/3.tif",
+        "3b": "data/raw/forest-plot-analysis/data/hi/3b.tif",
+        "4": "data/raw/forest-plot-analysis/data/hi/4.tif",
+        "Premol": "data/raw/forest-plot-analysis/data/hi/Premol.tif",
+    }
+
     filename_label = "data/raw/forest-plot-analysis/data/gt/df_pixel.csv"
-    rgb_channels = [64, 28, 15]
     plot_id = "1"
+    rgb_channels = [64, 28, 15]
+    filename_hsi = filename_hsi[plot_id]
 
     cwd = Path(__file__).resolve().parents[1]
     file_hsi = cwd / filename_hsi
@@ -69,16 +80,30 @@ def visualize_data():
     img_label = np.zeros((rgb_array.shape[0], rgb_array.shape[1], 3))
 
     tree_ids = df["specie"].unique()
-    color_map = {tree_id: color for tree_id, color in zip(tree_ids, plt.cm.tab20.colors)}
+    color_map = {
+        tree_id: color for tree_id, color
+        in zip(tree_ids, plt.cm.tab20.colors)
+    }
     for _, row in df.iterrows():
         color = color_map[row["specie"]]
         img_label[int(row["row"]), int(row["col"])] = color
 
-    fig, ax = plt.subplots(1, 2)
-    ax[0].imshow(rgb_array)
-    ax[0].set_title("Hyperspectral image")
-    ax[1].imshow(img_label)
-    ax[1].set_title("Labels map")
+    fig, ax = plt.subplots(1, 1)
+    ax.imshow(rgb_array)
+    ax.set_title("Hyperspectral image")
+    ax.imshow(img_label, alpha=0.5)
+    ax.set_title("Labels map")
+    legend_elements = [
+        mpatches.Patch(color=color, label=class_name)
+        for class_name, color in color_map.items()
+    ]
+    ax.legend(
+        handles=legend_elements,
+        loc='upper right',
+        bbox_to_anchor=(1.25, 1),
+        title="Classes",
+    )
+
     plt.show()
 
 
