@@ -78,8 +78,17 @@ To begin this project:
   - On Linux/Mac:
   ```bash
   cd projects/20xx_20xx/xx-projectname
+  python -m venv .venv --prompt projectname
+  source .venv/bin/activate
+  pip install pip --upgrade
+  pip install -e .
+  ```
+  or, more briefly, using the provided script:
+  ```bash
+  cd projects/20xx_20xx/xx-projectname
   source install.sh
   ```
+
   - On Windows:
   ```
   cd projects\20xx_20xx\xx-projectname
@@ -90,6 +99,11 @@ To begin this project:
   pip install -e .
   ```
   
+- You can then test the loading script provided:
+  ```bash
+  python src/data_loading.py
+  ```
+
 - Update the # Group Member names section of the `LOG.md` file in your project 
   folder with the names of all the members of your group. 
 - Note: Projects from previous years are available at:
