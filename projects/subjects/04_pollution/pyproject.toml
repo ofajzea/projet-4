@@ -9,6 +9,7 @@ dependencies = [
     "h5netcdf>=1.6.1",
     "huggingface-hub>=0.30.2",
     "matplotlib>=3.9.4",
+    "pyqt5>=5.15.11; sys_platform == 'linux'",
     "netcdf4>=1.7.2",
     "xarray>=2024.7.0",
 ]
