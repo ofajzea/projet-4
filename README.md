@@ -80,7 +80,7 @@ To begin this project:
   cd projects/20xx_20xx/xx-projectname
   source install.sh
   ```
-  - On Windows
+  - On Windows:
   ```
   cd projects\20xx_20xx\xx-projectname
   python -m venv .venv --prompt projectname
