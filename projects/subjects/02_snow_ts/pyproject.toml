@@ -3,15 +3,15 @@ name = "02-snow-ts"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.9"
 dependencies = [
     "huggingface-hub>=0.30.2",
-    "matplotlib>=3.10.1",
-    "numpy>=2.2.4",
+    "matplotlib>=3.9.4",
+    "numpy>=2.0.2",
     "pyqt5>=5.15.11; sys_platform == 'linux'",
     "rasterio>=1.4.3",
-    "scipy>=1.15.2",
-    "tifffile>=2025.3.30",
+    "scipy>=1.13.1",
+    "tifffile>=2024.8.30",
 ]
 
 

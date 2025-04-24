@@ -3,12 +3,12 @@ name = "05-forest"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.9"
 dependencies = [
     "huggingface-hub>=0.30.2",
-    "matplotlib>=3.10.1",
+    "matplotlib>=3.9.4",
     "numpy>=2.2.4",
-    "tifffile>=2025.3.30",
+    "tifffile>=2024.8.30",
     "pyqt5>=5.15.11; sys_platform == 'linux'",
     "pandas>=2.2.3",
 ]

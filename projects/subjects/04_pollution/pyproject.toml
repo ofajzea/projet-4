@@ -3,14 +3,14 @@ name = "04-pollution"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.9"
 dependencies = [
-    "cartopy>=0.24.1",
+    "cartopy>=0.23.0",
     "h5netcdf>=1.6.1",
     "huggingface-hub>=0.30.2",
-    "matplotlib>=3.10.1",
+    "matplotlib>=3.9.4",
     "netcdf4>=1.7.2",
-    "xarray>=2025.3.1",
+    "xarray>=2024.7.0",
 ]
 
 

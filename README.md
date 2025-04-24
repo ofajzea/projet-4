@@ -82,15 +82,15 @@ To begin this project:
   ```
   - On Windows
   ```
-  cd projects/20xx_20xx/xx-projectname
+  cd projects\20xx_20xx\xx-projectname
   python -m venv .venv --prompt projectname
   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
   .\.venv\Scripts\activate
-  pip install -e .  
+  pip install -e .
   ```
-
-- Update the # Group Member names section of the `LOG.md` file in your project folder
-  with the names of all the members of your group. 
+  
+- Update the # Group Member names section of the `LOG.md` file in your project 
+  folder with the names of all the members of your group. 
 - Note: Projects from previous years are available at:
   https://gricad-gitlab.univ-grenoble-alpes.fr/piconed/remote-sensing-projects-archive
 - Some datasets associated to the projects are available at:
@@ -100,10 +100,11 @@ To begin this project:
 
 The project requires to hand the following material.
 Note:
-- Please include the names of all the members of the group in both presentation, 
-  reports and in the `LOG.md` file in your project folder.
-- Please update at the end of each session the `LOG.md` file in your project folder 
-  with the work done during the session and the work planned for the next one.
+- Please include the names of all the members of the group in both 
+  presentation, reports and in the `LOG.md` file in your project folder.
+- Please update at the end of each session the `LOG.md` file in your project 
+  folder with the work done during the session and the work planned for the 
+  next one.
 - All the material (code included) has to be provided in English.
 
 ### Mid course deliverable
@@ -147,7 +148,8 @@ At the final session of the course, each group has to provide:
     - Discussion on the results:
       - Objective, through quality indices (presented through tables)
       - Qualitative, by visually comparing the results
-Please follow the provided template to organize your data; the project structure is available at `projects\template\README.md`.
+Please follow the provided template to organize your data; the project 
+structure is available at `projects\template\README.md`.
 
 ### Handing out your deliverables
 The deliverables have to be added to your project main folder according to the

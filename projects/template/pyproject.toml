@@ -3,26 +3,26 @@ name = "template"
 version = "0.1.0"
 description = "Example template for the remote sensing project."
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.9"
 dependencies = [
     "geopandas>=1.0.1",
     "huggingface-hub>=0.30.2",
     "imageio>=2.37.0",
     "jupyter>=1.1.1",
     "jupyterlab>=4.4.0",
-    "matplotlib>=3.10.1",
-    "numpy>=2.2.4",
     "opencv-python>=4.11.0.86",
     "rasterio>=1.4.3",
-    "scipy>=1.15.2",
     "tqdm>=4.67.1",
     "pyqt5>=5.15.11; sys_platform == 'linux'",
-    "cartopy>=0.24.1",
-    "xarray>=2025.3.1",
     "netcdf4>=1.7.2",
     "h5netcdf>=1.6.1",
     "kaggle>=1.7.4.2",
-    "tifffile>=2025.3.30",
+    "xarray>=2024.7.0",
+    "numpy>=2.0.2",
+    "cartopy>=0.23.0",
+    "matplotlib>=3.9.4",
+    "scipy>=1.13.1",
+    "tifffile>=2024.8.30",
 ]
 
 
