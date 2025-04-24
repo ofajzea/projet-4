@@ -86,6 +86,7 @@ To begin this project:
   python -m venv .venv --prompt projectname
   Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
   .\.venv\Scripts\activate
+  pip install pip --upgrade
   pip install -e .
   ```
   
