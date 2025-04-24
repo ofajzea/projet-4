@@ -45,7 +45,7 @@ The main objectives of this project are:
 Additionally, the student will develop the following set of acquired skills:
 
 * Experience working on project development in a collaborative environment
-* Gain experience in python programming (python and jupyter)
+* Gain experience in Python programming (Python and Jupyter)
 * Get familiar with version control (git)
 * Get experience with other tools such as Markdown, LaTex, running
   scripts in the terminal.
@@ -71,13 +71,24 @@ Additionally, the student will develop the following set of acquired skills:
 To begin this project:
 
 - Fork this repository to your own account on GRICAD
-- Copy the folder of your chosen project from `projects\subjects` to the one of 
-  your academic year (e.g. `projects\2024_2025` for 2024/2025).
+- Copy the folder of your chosen project from `projects/subjects` to the one of 
+  your academic year (e.g. `projects/2024_2025` for 2024/2025).
 - Install your project dependencies and download the data for your project by typing in the terminal:
-```bash
-cd projects/20xx_20xx/xx-projectname
-source install.sh
-```
+
+  - On Linux/Mac:
+  ```bash
+  cd projects/20xx_20xx/xx-projectname
+  source install.sh
+  ```
+  - On Windows
+  ```
+  cd projects/20xx_20xx/xx-projectname
+  python -m venv .venv --prompt projectname
+  Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+  .\.venv\Scripts\activate
+  pip install -e .  
+  ```
+
 - Update the # Group Member names section of the `LOG.md` file in your project folder
   with the names of all the members of your group. 
 - Note: Projects from previous years are available at:
@@ -156,7 +167,7 @@ The deliverables are to be provided either:
 - as a merge request to the central repository. Please do not make any change 
   outside your assigned folder (should be `projects/20xx_20xx/xx-projectname`).
 - as a mail to the supervisors (please include only your project folder), 
-  using a (Renater)[https://filesender.renater.fr/] link.
+  using a [https://filesender.renater.fr/](Renater) link.
 - through Chamilo in the Travaux section, within the  `Projet Teledetection` 
   group of your academic year, uploading a zip file of your project folder.
 
