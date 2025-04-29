@@ -73,6 +73,12 @@ def visualize_data():
     rgb_array = tifffile.TiffFile(file_hsi)
     rgb_array = rgb_array.asarray()
     rgb_array = rgb_array[:, :, rgb_channels]
+    for i in range(rgb_array.shape[2]):
+        min_val = np.percentile(rgb_array[..., i], 2)
+        max_val = np.percentile(rgb_array[..., i], 98)
+        rgb_array[..., i] = np.clip((rgb_array[..., i] - min_val) / (max_val - min_val), 0, 1)
+
+
     rgb_array = rgb_array / rgb_array.max()
 
     df = pd.read_csv(file_label)
